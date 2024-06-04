@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Clock from 'react-clock';
 import moment from 'moment-timezone';
 import './DateTime.css';
+import 'react-clock/dist/Clock.css'
 
 const DateTime = () => {
   const [currentTime, setCurrentTime] = useState(moment());

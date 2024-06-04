@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import moment from 'moment-timezone';
 import './WorldClock.css';
 import Clock from 'react-clock';
+import 'react-clock/dist/Clock.css'
 
 const cities = ['America/New_York', 'Europe/London', 'Asia/Tokyo', 'Australia/Sydney'];
 
