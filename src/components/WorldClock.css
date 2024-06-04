@@ -1,0 +1,27 @@
+.world-clock {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 1em;
+    background-color: coral;
+    border: 1px solid red;
+  }
+  
+  .city {
+    margin: 1em;
+    padding: 1em;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    text-align: center;
+  }
+  
+  .city-name {
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+  }
+  
+  .city-time {
+    font-size: 1.5em;
+  }
+  
