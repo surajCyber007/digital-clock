@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import Clock from 'react-clock';
-import 'react-clock/dist/Clock.css';
 import moment from 'moment-timezone';
 import './DateTime.css';
 
